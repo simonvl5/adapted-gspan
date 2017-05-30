@@ -17,9 +17,9 @@ def logPatterns(patterns,filename):
             out.write('\n')
 
 if __name__ == '__main__':
-    group1folder = "../data/TestGroup1/"
-    group2folder = "../data/TestGroup2/"
-    testgraphFile = "../data/classifyme.csv"
+    group1folder = "data/TestGroup1/"
+    group2folder = "data/TestGroup2/"
+    testgraphFile = "data/classifyme.csv"
 
     group1 = []
     group2 = []

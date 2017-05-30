@@ -37,11 +37,13 @@ labels
 8,H
 ```
 The first part connects all the edges given the id of each node. The second part assigns zero or more labels to each node.
+The resulting graph looks like this:
+![](http://raw.githubusercontent.com/simonvl5/adapted-gspan/master/data/example.png)
 
 ```python
 from readGraph import read
 
-graph = read('data/graph.csv')
+graph = read('data/example.csv')
 ```
 ### Graph class
 The graph.Graph class has a few useful methods.
