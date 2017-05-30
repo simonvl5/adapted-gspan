@@ -38,7 +38,7 @@ labels
 ```
 The first part connects all the edges given the id of each node. The second part assigns zero or more labels to each node.
 The resulting graph looks like this:
-![](http://raw.githubusercontent.com/simonvl5/adapted-gspan/master/data/example.png)
+![](https://github.com/simonvl5/adapted-gspan/blob/master/data/example.png)
 
 ```python
 from readGraph import read
